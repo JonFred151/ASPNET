@@ -6,7 +6,7 @@ using System.Data;
 using Testing.Models;
 namespace Testing
 {
-    public class ProductRepository
+    public class ProductRepository : IProductRepository
     {
         private readonly IDbConnection  _conn;
         public ProductRepository(IDbConnection conn)

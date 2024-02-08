@@ -5,7 +5,7 @@ using Microsoft.Extensions.Hosting;
 using MySql.Data.MySqlClient;
 using System.Data;
 using Testing;
-//21:51
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

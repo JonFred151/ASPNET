@@ -4,7 +4,7 @@ using Testing.Models;
 
 namespace Testing
 {
-    public interface IProductRepository
+    public interface IProductRepository 
     {
         public IEnumerable<Product> GetAllProducts();
     }
