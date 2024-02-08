@@ -1,5 +1,9 @@
-﻿
+﻿using System;
+using MySql.Data.MySqlClient;
 
+
+
+using Microsoft.AspNetCore.Mvc;
 
 namespace Testing.Models
 {
@@ -12,5 +16,7 @@ namespace Testing.Models
         public int OnSale { get; set; }
         public int StockLevel { get; set; }
 
+       
     }
+
 }
