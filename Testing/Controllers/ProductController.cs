@@ -23,7 +23,7 @@ namespace Testing.Controllers
             var product = repo.GetProduct(id);
             return View(product);
         }
-        public IActionResult UpdatedProduct(int id)
+        public IActionResult UpdateProduct(int id)
         {
             Product prod = repo.GetProduct(id);
             if(prod == null)
